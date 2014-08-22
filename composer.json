@@ -1,0 +1,6 @@
+{
+    "require": {
+        "sqmk/Phue": "*",
+        "symfony/console": "*"
+    }
+}

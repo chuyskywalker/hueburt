@@ -1,0 +1,140 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "dfee4deb251508e41df40a765e3eebef",
+    "packages": [
+        {
+            "name": "sqmk/phue",
+            "version": "0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sqmk/Phue.git",
+                "reference": "f863c2b64f66484f5509b0b5a2d9163401c7371b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sqmk/Phue/zipball/f863c2b64f66484f5509b0b5a2d9163401c7371b",
+                "reference": "f863c2b64f66484f5509b0b5a2d9163401c7371b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.8.0",
+                "phpunit/phpunit": "3.7.25",
+                "squizlabs/php_codesniffer": "1.4.6"
+            },
+            "suggest": {
+                "ext-curl": "Allows usage of cURL transport adapter"
+            },
+            "bin": [
+                "bin/phue-create-user",
+                "bin/phue-bridge-finder",
+                "bin/phue-light-finder",
+                "bin/phue-list-lights"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Phue": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Squires",
+                    "email": "sqmk@php.net",
+                    "role": "lead"
+                }
+            ],
+            "description": "Phue - Philips Hue PHP client",
+            "homepage": "http://github.com/sqmk/Phue",
+            "keywords": [
+                "client",
+                "hue",
+                "philips",
+                "phue"
+            ],
+            "time": "2013-10-26 02:11:41"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v2.5.3",
+            "target-dir": "Symfony/Component/Console",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Console.git",
+                "reference": "cd2d1e4bac2206b337326b0140ff475fe9ad5f63"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/cd2d1e4bac2206b337326b0140ff475fe9ad5f63",
+                "reference": "cd2d1e4bac2206b337326b0140ff475fe9ad5f63",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/event-dispatcher": "~2.1"
+            },
+            "suggest": {
+                "psr/log": "For using the console logger",
+                "symfony/event-dispatcher": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Console\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-08-05 09:00:40"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ],
+    "prefer-stable": false,
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

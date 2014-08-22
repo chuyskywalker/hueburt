@@ -1,6 +1,31 @@
 {
+    "name": "chuyskywalker/hueburt",
+    "description": "Hueburt -- Fun Hue Recipies",
+    "type": "project",
+    "keywords": [
+        "philips",
+        "hue"
+    ],
+    "homepage": "https://github.com/chuyskywalker/hueburt",
+    "license": "WTFPL",
+    "authors": [
+        {
+            "name":  "Jeff Minard",
+            "email": "hueburt@jrm.cc",
+            "role":  "lead"
+        }
+    ],
     "require": {
+        "php": ">=5.4.0",
         "sqmk/Phue": "*",
         "symfony/console": "*"
-    }
+    },
+    "autoload": {
+        "psr-0": {
+            "Hueburt": "library/"
+        }
+    },
+    "bin": [
+        "bin/hueburt"
+    ]
 }

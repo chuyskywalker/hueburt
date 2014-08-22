@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dfee4deb251508e41df40a765e3eebef",
+    "hash": "bd573a9d0ded44bf4970a220c498aec9",
     "packages": [
         {
             "name": "sqmk/phue",
@@ -131,9 +131,9 @@
 
     ],
     "prefer-stable": false,
-    "platform": [
-
-    ],
+    "platform": {
+        "php": ">=5.4.0"
+    },
     "platform-dev": [
 
     ]
